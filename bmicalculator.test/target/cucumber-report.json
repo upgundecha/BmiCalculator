@@ -1,0 +1,264 @@
+[
+  {
+    "id": "calculating-body-mass-index",
+    "description": "As a health specialist\nI want a BMI Calculator\nSo that I can calculate patient\u0027s Body Mass Index\nBmiCalculator",
+    "name": "Calculating Body Mass Index",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "calculating-body-mass-index;calculate-body-mass-index;;2",
+        "tags": [
+          {
+            "name": "@ios-sauce",
+            "line": 7
+          }
+        ],
+        "description": "",
+        "name": "Calculate Body Mass Index",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "steps": [
+          {
+            "name": "I enter \"170\" as height",
+            "keyword": "Given ",
+            "line": 9,
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "name": "I enter \"50\" as weight",
+            "keyword": "And ",
+            "line": 10,
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "name": "I press the Calculate button",
+            "keyword": "And ",
+            "line": 11
+          },
+          {
+            "result": {
+              "duration": 1906660000,
+              "status": "passed"
+            },
+            "name": "I should see \"17.30\" as bmi and \"Underweight\" as category",
+            "keyword": "Then ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "17.30",
+                  "offset": 14
+                },
+                {
+                  "val": "Underweight",
+                  "offset": 33
+                }
+              ],
+              "location": "Bmi_Calculator_Step_Defs.I_should_see_as_bmi_and_Normal_as_category(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "calculating-body-mass-index;calculate-body-mass-index;;3",
+        "tags": [
+          {
+            "name": "@ios-sauce",
+            "line": 7
+          }
+        ],
+        "description": "",
+        "name": "Calculate Body Mass Index",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "steps": [
+          {
+            "name": "I enter \"181\" as height",
+            "keyword": "Given ",
+            "line": 9,
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "name": "I enter \"80\" as weight",
+            "keyword": "And ",
+            "line": 10,
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "name": "I press the Calculate button",
+            "keyword": "And ",
+            "line": 11
+          },
+          {
+            "result": {
+              "duration": 2090045000,
+              "status": "passed"
+            },
+            "name": "I should see \"24.42\" as bmi and \"Normal\" as category",
+            "keyword": "Then ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "24.42",
+                  "offset": 14
+                },
+                {
+                  "val": "Normal",
+                  "offset": 33
+                }
+              ],
+              "location": "Bmi_Calculator_Step_Defs.I_should_see_as_bmi_and_Normal_as_category(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "calculating-body-mass-index;calculate-body-mass-index;;4",
+        "tags": [
+          {
+            "name": "@ios-sauce",
+            "line": 7
+          }
+        ],
+        "description": "",
+        "name": "Calculate Body Mass Index",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "steps": [
+          {
+            "name": "I enter \"180\" as height",
+            "keyword": "Given ",
+            "line": 9,
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "name": "I enter \"90\" as weight",
+            "keyword": "And ",
+            "line": 10,
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "name": "I press the Calculate button",
+            "keyword": "And ",
+            "line": 11
+          },
+          {
+            "result": {
+              "duration": 3786885000,
+              "status": "passed"
+            },
+            "name": "I should see \"27.78\" as bmi and \"Overweight\" as category",
+            "keyword": "Then ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "27.78",
+                  "offset": 14
+                },
+                {
+                  "val": "Overweight",
+                  "offset": 33
+                }
+              ],
+              "location": "Bmi_Calculator_Step_Defs.I_should_see_as_bmi_and_Normal_as_category(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "calculating-body-mass-index;calculate-body-mass-index;;5",
+        "tags": [
+          {
+            "name": "@ios-sauce",
+            "line": 7
+          }
+        ],
+        "description": "",
+        "name": "Calculate Body Mass Index",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "steps": [
+          {
+            "name": "I enter \"175\" as height",
+            "keyword": "Given ",
+            "line": 9,
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "name": "I enter \"100\" as weight",
+            "keyword": "And ",
+            "line": 10,
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "name": "I press the Calculate button",
+            "keyword": "And ",
+            "line": 11
+          },
+          {
+            "result": {
+              "duration": 3216415000,
+              "status": "passed"
+            },
+            "name": "I should see \"32.65\" as bmi and \"Obese\" as category",
+            "keyword": "Then ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "32.65",
+                  "offset": 14
+                },
+                {
+                  "val": "Obese",
+                  "offset": 33
+                }
+              ],
+              "location": "Bmi_Calculator_Step_Defs.I_should_see_as_bmi_and_Normal_as_category(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bmicalculator/test/bmi_calculator.feature"
+  }
+]
